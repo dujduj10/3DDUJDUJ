@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Nyomtatott Termékek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>3D Nyomtatott Termékek</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Kezdőlap</a></li>
+                <li><a href="#products">Termékek</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Üdvözlünk a 3D Nyomtatott Termékek Boltjában!</h2>
+        <p>Magas minőségű, egyedi 3D nyomtatott termékek megfizethető áron.</p>
+    </section>
+    
+    <section id="products">
+        <h2>Termékek</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="Termék 1">
+                <h3>Termék neve</h3>
+                <p>Termék leírása.</p>
+                <p><strong>Ár: 5000 HUF</strong></p>
+                <button>Kosárba</button>
+            </div>
+            <!-- További termékek -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <form>
+            <label>Név:</label>
+            <input type="text" required>
+            <label>Email:</label>
+            <input type="email" required>
+            <label>Üzenet:</label>
+            <textarea required></textarea>
+            <button type="submit">Küldés</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 3D Nyomtatott Termékek</p>
+    </footer>
+</body>
+</html>
